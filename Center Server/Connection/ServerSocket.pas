@@ -146,13 +146,13 @@ begin
   Loading.SquareLoading[2]:='SquareObject.lua';
   Loading.SquareLoading[3]:='Square3DObject.lua';
   Loading.AddHack('Teste.dll');
-  Loading.AddCheck('mainxx.exe','A42B77BEEECE321B19257C7EE803548B9DFD7A42');
-  Loading.AddCheck('script.kom','5E1959836BDCCE737EA85BCC781B7952274D55B1');
+//  Loading.AddCheck('mainxx.exe','A42B77BEEECE321B19257C7EE803548B9DFD7A42');
+//  Loading.AddCheck('script.kom','5E1959836BDCCE737EA85BCC781B7952274D55B1');
   Loading.GuildMark:='http://gcreborn.com/GuildMark/';
   Unknown:=TUnknown.Create;
   Players:=TList<TPlayer>.Create;
   Logger.Write('Conectando na database',ServerStatus);
-  MySQL:=TQuery.Create('127.0.0.1',3306,'root','root','gc');
+  MySQL:=TQuery.Create('127.0.0.1',3306,'root','root','gc_iv');
   if MySQL.MySQL.Connected = True then begin
     Logger.Write('Conectado',Warnings);
     Shop:=TShop.Create(MySQL);
