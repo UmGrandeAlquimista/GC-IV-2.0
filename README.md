@@ -14,8 +14,7 @@ Bem vindo à página do GCIV Custom Server, um servidor para Grand Chase versão
 Projeto criado com o Delphi XE7, porém pode ser compilado com qualquer versão mais recente.
 
 # Links:
-Database: https://pastebin.com/uQ4KDAx9/ 
-Arquivos Necessários: https://www.sendspace.com/file/kz93eh/
+- Database: https://pastebin.com/uQ4KDAx9/
 
 # GCDLL Lib
 
