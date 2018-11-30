@@ -15,11 +15,9 @@ Projeto criado com o Delphi XE7, porém pode ser compilado com qualquer versão 
 
 # GCDLL Lib
 
-Na source terá uma referência à "GCDLL.dll"
+GCDLL Anexada ao tópico.
 
-"GCDLL" é uma lib privada e não será compartilhada nesse projeto. Não será liberada mas talvez alguém possa fazer isso pra você, ou você mesmo xD
-
-Ela precisa estar nesse formato:
+# GCDLL Informações:
 
 * _Encrypt = Deve receber o packet totalmente montado e irá retormar o packet pré pronto para envio, faltando apenas a size.
 * _Decrypt = Deve receber o packet do jeito que é recebido pelo cliente.
