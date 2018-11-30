@@ -3637,7 +3637,7 @@ begin
   Players:=TList<TPlayer>.Create;
   Lobby:=TLobby.Create;
   Logger.Write('Conectando na database',ServerStatus);
-  MySQL:=TQuery.Create('127.0.0.1',3306,'root','root','gc');
+  MySQL:=TQuery.Create('127.0.0.1',3306,'root','root','gc_iv');
   if MySQL.MySQL.Connected = True then begin
     Shop:=TShop.Create(MySQL);
     Logger.Write('Conectado',Warnings);
